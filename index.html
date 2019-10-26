@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day Planner</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <div id="heading">
+            <h1 class="display-3">Work Day Scheduler</h1>
+            <p class="lead">A simple app for scheduling your work day!</p>
+            <p id="tdate"></p>
+        </div>
+        <hr class="my-3">
+        <!-- The time slot content goes here hours 9 - 5 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-2 time">
+                    <div class="mr-0 border-top border-dark hour hour9" data-time="9">9:00AM</div>
+                </div>
+                <div class="col-8 event">
+                    <input id="event9" type="text" class="form-control" placeholder="Click to add event">
+                </div>
+                <div class="col-2 saveButton">
+                    <input class="btn btn-primary btn-sm border" type="saveBtn" value="Save">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 time">
+                    <div class="border-top border-dark hour hour10" data-time="10">10:00AM</div>
+                </div>
+                <div class="col-8 event">
+                    <input id="event10" type="text" class="form-control" placeholder="Click to add event">
+                </div>
+                <div class="col-2 saveButton">
+                    <input class="btn btn-primary btn-sm border" type="saveBtn" value="Save">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 time">
+                    <div class="border-top border-dark hour hour11" data-time="11">11:00AM</div>
+                </div>
+                <div class="col-8 event">
+                    <input id="event11" type="text" class="form-control" placeholder="Click to add event">
+                </div>
+                <div class="col-2 saveButton">
+                    <input class="btn btn-primary btn-sm border" type="saveBtn" value="Save">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 time">
+                    <div class="border-top border-dark hour hour12" data-time="12">12:00PM</div>
+                </div>
+                <div class="col-8 event">
+                    <input id="event12" type="text" class="form-control" placeholder="Click to add event">
+                </div>
+                <div class="col-2 saveButton">
+                    <input class="btn btn-primary btn-sm border" type="saveBtn" value="Save">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 time">
+                    <div class="border-top border-dark hour hour1" data-time="1">1:00PM</div>
+                </div>
+                <div class="col-8 event">
+                    <input id="event1" type="text" class="form-control" placeholder="Click to add event">
+                </div>
+                <div class="col-2 saveButton">
+                    <input class="btn btn-primary btn-sm border" type="saveBtn" value="Save">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 time">
+                    <div class="border-top border-dark hour hour2" data-time="2">2:00PM</div>
+                </div>
+                <div class="col-8 event">
+                    <input id="event2" type="text" class="form-control" placeholder="Click to add event">
+                </div>
+                <div class="col-2 saveButton">
+                    <input class="btn btn-primary btn-sm border" type="saveBtn" value="Save">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 time">
+                    <div class="border-top border-dark hour hour3" data-time="3">3:00PM</div>
+                </div>
+                <div class="col-8 event">
+                    <input id="event3" type="text" class="form-control" placeholder="Click to add event">
+                </div>
+                <div class="col-2 saveButton">
+                    <input class="btn btn-primary btn-sm border" type="saveBtn" value="Save">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 time">
+                    <div class="border-top border-dark hour hour4" data-time="4">4:00PM</div>
+                </div>
+                <div class="col-8 event">
+                    <input id="event4" type="text" class="form-control" placeholder="Click to add event">
+                </div>
+                <div class="col-2 saveButton">
+                    <input class="btn btn-primary btn-sm border" type="saveBtn" value="Save">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 time">
+                    <div class="border-top border-dark hour hour5" data-time="5">5:00PM</div>
+                </div>
+                <div class="col-8 event">
+                    <input id="event5" type="text" class="form-control" placeholder="Click to add event">
+                </div>
+                <div class="col-2 saveButton">
+                    <input class="btn btn-primary btn-sm border" type="saveBtn" value="Save">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
