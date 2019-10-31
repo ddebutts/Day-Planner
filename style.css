@@ -1,11 +1,6 @@
 hr{
     border:10px solid black;
     border-radius: 5px;
-};
-
-.col-2{
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .past {
@@ -13,12 +8,12 @@ hr{
     color: white;
   }
   
-  .present {
+.present {
     background-color: #ff6961;
     color: white;
   }
   
-  .future {
+.future {
     background-color: #77dd77;
     color: white;
   }
